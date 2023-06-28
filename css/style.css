@@ -1,0 +1,287 @@
+.cont11{
+    
+    background-color: rgb(130, 46, 0, 0.558);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+  
+}
+.logo{
+    
+    cursor: pointer;
+}
+
+.navlink{
+    
+    list-style: none;
+    
+   
+}
+.navlink ul {
+    height: 100%;
+    display: flex;
+    margin: 0 -20px;
+  }
+.navlink li{
+    position: relative;
+    
+    display: inline-block;
+    padding: 0px 20px;
+    
+} 
+.navlink li::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 20px;
+    
+    
+    position: absolute;
+    right: -1px;
+    top: calc((100% - 20px)/2);
+  }
+  .navlink li:last-child::after {
+    content: none;
+  } 
+  
+.navlink li a{
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 16px;
+    
+    text-decoration: none;
+
+}
+
+
+
+.navlink li a:hover{
+    color: rgb(0, 219, 219);
+
+}
+
+.navlink a:hover span::after{
+    content:"";
+   
+    display: block;
+    height: 4px;
+    width: 100%;
+    bottom: 27px;
+    background-color: rgb(0, 219, 219);
+    border-radius: 5px;
+
+  }
+  a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+.swiper-wrapper .swiper-slide{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 60vh;
+        
+}
+.swiper{
+    position: relative;
+}
+.swappp{
+    position:relative;
+    
+}
+
+.swappp p{
+    position: absolute;
+    top: 168px;
+    left: 0px;
+    font-size: 70px;
+    font-weight: 800;
+    color:black;
+    
+    font-style: oblique;
+    font-family: 'Dancing Script','Exo 2', sans-serif, 'Klee One', cursive;
+}  
+    
+
+.swappp span p{
+   
+    width: 100%;
+    background-color: rgba(130, 46, 0, 0.1125);
+    text-align: center;
+    position: absolute;
+}
+.contain1{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    background-color: rgb(255, 255, 255);
+    
+    justify-content: space-around;
+    text-align: center;
+    padding: 2px 2px;
+    
+}
+.item{
+    flex: 1;
+    
+    
+    
+    background-color: rgb(212, 208, 208, 0.14);
+    font-size: 130%;
+    font-style: italic;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer{
+    display: block;
+    width: auto;
+    
+    background-color:rgba(130, 46, 0, 0.558);
+}
+.fcon{
+    
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fitem{
+    flex-basis: 40%;
+    flex:1 1; 
+    
+    text-align: center;
+
+    font-family: "Comic Sans MS", cursive, sans-serif, 'Dancing Script', sans-serif, 'Klee One', cursive;
+    font-size: 130%;
+}
+.fitem p{
+    font-size: 40px;
+    color: crimson;
+}
+
+
+/*SHUMI*/
+.s-cov-pic{
+    position:relative;
+    
+}
+.s-pic{
+    background-image:url("../images/greypine2.jpg") ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 500px;  
+}
+/*
+.s-pic2{
+    background-image:url("../images/globe.jpg") ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:top center ;
+    height: 500px;
+    
+    
+
+}
+*/
+
+.s-cov-pic p{
+    position: absolute;
+    top: 250px;
+    right: 150px;
+    font-size: 70px;
+    font-weight: 800;
+    color:black;
+    
+    font-style: oblique;
+    font-family: 'Dancing Script','Exo 2', sans-serif, 'Klee One', cursive;
+}
+
+.s-cov-pic2{
+    position: relative;
+}
+.s-cov-pic2 p{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    font-size: 70px;
+    font-weight: 800;
+    color:white;
+    
+    font-style: oblique;
+    font-family: 'Dancing Script','Exo 2', sans-serif, 'Klee One', cursive;
+    
+
+    
+}
+
+.scon-img{
+    background-image:url("../images/mount.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:top center ;
+    height: auto;    
+}
+
+.scon-img2{
+    background-image:url("../images/trees.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:bottom center ;
+    height: auto;    
+}
+.scont{
+    padding: 20px;
+    
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+.sitem{
+    flex: 1;
+    
+    text-align:center;
+    font-family: "Comic Sans MS", cursive, sans-serif, 'Dancing Script', sans-serif, 'Klee One', cursive;
+    font-size: 130%;
+    text-transform: capitalize;
+}
+.sitem span{
+    color: white;
+}
+
+
+/*KUNI*/
+/* video */
+.video{
+    
+    background: url(../images/cover.jpg) no-repeat center cover;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -1;
+  }
+  @media(min-aspect-ratio: 16/9){
+    .video{
+        width: 100%;
+        
+    }
+  }
+  @media(max-aspect-ratio: 16/9){
+    .video{
+        
+        height: 50%;
+        
+    }
+  }

@@ -1,0 +1,7 @@
+.swiper-wrapper .swiper-slide{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 90vh;
+        
+}
